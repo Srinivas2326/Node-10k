@@ -2,8 +2,10 @@
 
 import http from 'node:http';
 import axios from 'axios';
+// import url from 'url'
 const server = http.createServer(
     (req,res)=>{
+        // console.log(url)
         axios.get('https://dummyjson.com/products').then((response)=>{
             // res.write("welcome to our first server, srinivas peddada")
             res.writeHead(200,{
