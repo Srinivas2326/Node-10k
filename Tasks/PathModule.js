@@ -31,8 +31,3 @@ console.log("dir:", parsed.dir)
 console.log("base:", parsed.base)
 console.log("ext:", parsed.ext)
 console.log("name:", parsed.name)
-
-
-
-
-
